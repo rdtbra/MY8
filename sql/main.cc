@@ -22,4 +22,5 @@
 
 extern int mysqld_main(int argc, char **argv);
 
+/* RDT: 20230702 - Ponto de entrada do servidor, chamando mysqld_main! */
 int main(int argc, char **argv) { return mysqld_main(argc, argv); }
