@@ -8405,6 +8405,7 @@ static bool default_service_handling(char **argv, const char *servicename,
   return 1;
 }
 
+/* RDT: 20230702 - Início das atividades do servidor. */
 int mysqld_main(int argc, char **argv) {
   bool mysqld_monitor = false;
   mysqld_early_option = is_early_option(argc, argv);
